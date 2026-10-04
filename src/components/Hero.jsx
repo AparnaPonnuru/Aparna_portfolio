@@ -8,13 +8,12 @@ export default function Hero({ setActiveTab }) {
   return (
     <div className="page-view" style={{ paddingTop: '5.5rem', paddingBottom: '1rem', flex: 1, display: 'flex', alignItems: 'center' }}>
       <div className="container">
-        
+
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2.5rem', alignItems: 'center' }} className="hero-grid">
-          
-          {/* Left Column: Intro, Bio & Action Buttons */}
+
+
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%' }}>
             <div>
-              {/* Top Subtitle with proper spacing from header */}
               <div style={{ fontSize: '0.92rem', color: '#0284c7', fontWeight: 600, marginBottom: '0.75rem', letterSpacing: '0.02em', marginTop: '0.4rem' }}>
                 Welcome to my site
               </div>
@@ -121,7 +120,7 @@ export default function Hero({ setActiveTab }) {
 
           {/* Right Column: Profile Frame Container */}
           <div style={{ display: 'flex', justifyContent: 'center', position: 'relative' }}>
-            
+
             {/* Background Pastel Shape Accent */}
             <div
               style={{
