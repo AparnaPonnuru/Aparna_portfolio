@@ -8,8 +8,8 @@ export default function About() {
   return (
     <div className="page-view">
       <div className="container">
-        
-        {/* Section Header */}
+
+
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <div className="section-title-badge">
             <UserCheck size={14} /> Background & Education
@@ -21,7 +21,7 @@ export default function About() {
 
         {/* Unique Split Layout: Left Sticky Sidebar + Right Compact Tab View */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
-          
+
           {/* Left Quick Profile Card */}
           <div className="glass-card" style={{ padding: '1.4rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem' }}>
